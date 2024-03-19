@@ -127,3 +127,13 @@ button {
   top: 10rem;
   right: 0;
 }
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 80px;
+  background-color: var(--color-first);
+  position: fixed;
+  z-index: 10;
+  padding-top: 20px;
+}
