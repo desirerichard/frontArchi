@@ -1,0 +1,30 @@
+[
+    {
+        "nom": "Surfi Snow",
+        "prix": 120.43,
+        "description": "C'est un snowboard de fou.",
+        "categorie": "snowboard",
+        "image": "https://images.unsplash.com/photo-1599751449208-2cb02e965ec1?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "nom": "Ski en jump",
+        "prix": 306.66,
+        "description": "Pratique pour des sauts.",
+        "categorie": "ski",
+        "image": "https://images.unsplash.com/photo-1565992441121-4367c2967103?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "nom": "Masque cool.",
+        "prix": 90.61,
+        "description": "Masque pour se protéger du froid.",
+        "categorie": "accessoire",
+        "image": "https://images.unsplash.com/photo-1614358536373-1ce27819009e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "nom": "Veste blanche.",
+        "prix": 387.98,
+        "description": "Veste pour se protéger du froid.",
+        "categorie": "vêtement",
+        "image": "https://images.unsplash.com/photo-1609952769249-67382e68ad0a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

@@ -79,6 +79,7 @@ section {
   padding-bottom: 100px;
   margin: auto;
   width: 90%;
+  gap: 2rem;
 }
 h1 {
   font-size: 30px;
@@ -100,4 +101,9 @@ button {
   cursor: pointer;
   background: transparent;
   font-family: var(--font);
+}
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
