@@ -27,15 +27,14 @@ export default function ProduitListContainer() {
       <h1>Liste des Produits</h1>
       <section>
         {produits.map((produit) => (
-          <>
+          <div key={produit.id}>
             <Carte
-              id={produit.id}
               nom={produit.nom}
               prix={produit.prix}
               description={produit.description}
               image={produit.image}
             />
-          </>
+          </div>
         ))}
       </section>
     </div>
