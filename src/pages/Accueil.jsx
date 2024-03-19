@@ -1,11 +1,11 @@
 import React from "react";
-import ProduitListController from "../Controller/ProduitListController";
+import ProduitListContainer from "../Container/ProduitListContainer";
 
 export default function Accueil() {
   return (
     <div>
       Accueil
-      <ProduitListController />
+      <ProduitListContainer />
     </div>
   );
 }

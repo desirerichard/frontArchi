@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Carte from "../composants/Carte";
 
-export default function ProduitListController() {
+export default function ProduitListContainer() {
   const [produits, setProduits] = useState([]);
 
   useEffect(() => {
@@ -26,15 +27,15 @@ export default function ProduitListController() {
       <h1>Liste des Produits</h1>
       <section>
         {produits.map((produit) => (
-          <div key={produit.id}>
-            <ul>
-              <li>
-                {produit.nom} - {produit.prix}
-              </li>
-              <li>{produit.description}</li>
-            </ul>
-            <img src={produit.image} />
-          </div>
+          <>
+            <Carte
+              id={produit.id}
+              nom={produit.nom}
+              prix={produit.prix}
+              description={produit.description}
+              image={produit.image}
+            />
+          </>
         ))}
       </section>
     </div>
