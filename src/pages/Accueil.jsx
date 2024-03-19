@@ -1,11 +1,13 @@
 import React from "react";
 import ProduitListContainer from "../Container/ProduitListContainer";
+import CrossBouton from "../composants/CrossButton";
 
-export default function Accueil() {
+export default function Accueil(props) {
   return (
-    <div>
+    <main className="acceuil container">
       Accueil
       <ProduitListContainer />
-    </div>
+      <CrossBouton nom="+" title="Ajouter un produit" />
+    </main>
   );
 }

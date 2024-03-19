@@ -16,7 +16,7 @@
   /*Colors*/
   --color-first: #ffffff;
   --color-second: #060606;
-  --color-third: #d69200;
+  --color-third: #b7b7b7;
   /*Transition*/
   --transition: all 0.5s ease;
   --transition-mid: all 0.2s ease;
@@ -66,6 +66,7 @@ main {
   height: 100%;
   min-height: calc(100vh - 100px);
   padding-top: 100px;
+  position: relative;
 }
 
 a {
@@ -106,4 +107,23 @@ img {
   width: 200px;
   height: 150px;
   object-fit: cover;
+  border-radius: 1rem;
+}
+button {
+  background-color: var(--color-first);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.crossBouton {
+  background-color: rgb(157, 123, 189);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+}
+
+.acceuil .crossBouton {
+  position: absolute;
+  top: 10rem;
+  right: 0;
 }
