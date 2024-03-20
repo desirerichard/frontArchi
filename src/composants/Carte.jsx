@@ -25,8 +25,8 @@ export default function Carte(props) {
           <li>{props.description}</li>
         </ul>
         <div style={boutonContainer}>
-          <Bouton boutonNom="Modifier" />
-          <Bouton boutonNom="Supprimer" />
+          <Bouton title="Modifier un produit" boutonNom="Modifier" />
+          <Bouton class="supprimerBouton" title="Supprimer un produit" boutonNom="Supprimer" />
         </div>
       </div>
 
