@@ -1,12 +1,12 @@
 import React from "react";
 import ProduitListContainer from "../Container/ProduitListContainer";
-import CrossBouton from "../composants/CrossButton";
+import Bouton from "../composants/Bouton";
 
 export default function Accueil(props) {
   return (
     <main className="acceuil container">
       <ProduitListContainer />
-      <CrossBouton nom="+" title="Ajouter un produit" />
+      <Bouton class="croixBouton" boutonNom="+" title="Ajouter un produit" />
     </main>
   );
 }
