@@ -1,5 +1,6 @@
 import React from "react";
 import Bouton from "./Bouton";
+import { Link } from "react-router-dom";
 
 export default function Carte(props) {
   const produit = {
@@ -26,11 +27,16 @@ export default function Carte(props) {
         </ul>
         <div style={boutonContainer}>
           <Bouton title="Modifier un produit" boutonNom="Modifier" />
-          <Bouton class="supprimerBouton" title="Supprimer un produit" boutonNom="Supprimer" />
+          <Bouton
+            class="supprimerBouton"
+            title="Supprimer un produit"
+            boutonNom="Supprimer"
+          />
         </div>
       </div>
-
-      <img src={props.image} />
+      <Link to="/">
+        <img src={props.image} />
+      </Link>
     </article>
   );
 }
